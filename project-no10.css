@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Poppins:wght@400;500;600&family=Signika:wght@500&family=Varela+Round&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url(/Landing-page/img-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(74, 73, 73);
+}
+
+.from
+{
+    background-color: rgb(246, 255, 255);
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    border-radius: 15px;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    
+}
+
+.botton
+{
+    padding: 7px;
+    width: 220px;
+    border-radius: 30px;
+    box-shadow: rgba(255, 85, 0, 0.25) 0px 4px 5px, rgba(244, 96, 10, 0.12) 0px -12px 30px, rgba(225, 95, 8, 0.12) 0px 4px 6px, rgba(244, 117, 6, 0.17) 0px 2px 13px, rgba(249, 71, 6, 0.09) 0px -3px 5px;
+    position: relative;
+    margin: 35px auto;
+   
+}
+
+.botton .left
+{
+    
+    border: none;
+    color: black;
+    outline: none;
+    background: transparent;
+    padding: 7px 1.5rem;
+    position: relative;
+}
+
+.from .botton #btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(62deg, rgba(241,204,52,1) 0%, rgb(255, 81, 0) 100%);
+    border-radius: 30px;
+    box-shadow: rgba(29, 29, 28, 0.25) 0px 4px 55px, rgba(3, 3, 3, 0.12) 0px -12px 30px, rgba(12, 12, 12, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 2px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon i{
+    margin: 1rem auto;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    background: linear-gradient(62deg, rgba(241,204,52,1) 0%, rgb(255, 81, 0) 100%);
+    margin-right: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.infodetails
+{
+    margin-top: 2rem;
+    width: 430px;
+    margin: 0 auto;
+
+}
+
+.infodetails .mdatick
+{
+    margin:  1.5rem 0;
+    width: 100%;
+    border: none;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid rgb(14, 14, 14);
+    outline: none;
+    background-color: transparent;
+
+}
+::-webkit-input-placeholder {
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.atickvai{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0.2rem;
+}
+
+.realbtn{
+    margin-top: 6rem ;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    padding: 1rem 0;
+    width: 400px;
+    border-radius: 30px;
+    transition: 0.3s;
+    background: linear-gradient(62deg, rgba(241,204,52,1) 0%, rgb(255, 81, 0) 100%);
+}
+
+.realbtn:hover{
+    transform: scale(0.9);
+}
+
+
+/* 
+#atick
+{
+    position: relative;
+    top: -200px;
+} */
+
+#register
+{
+    position: relative;
+    left: 500px;
+    top: -385px;
+}
